@@ -34,6 +34,12 @@ android {
 
 dependencies {
 
+    //Retrofit https://square.github.io/retrofit/ - latest version https://github.com/square/retrofit.
+    implementation(libs.squareup.retrofit2)
+    implementation(libs.squareup.retrofit2.gson)
+    implementation(libs.squareup.logging.interceptor)
+    implementation(libs.jetbrains.kotlinx.coroutines)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
