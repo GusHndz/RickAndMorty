@@ -1,4 +1,4 @@
-package mx.com.rifat.rickandmorty.rickandmorty.ui.theme
+package mx.com.rifat.rickandmorty.resource.theme
 
 import android.app.Activity
 import android.os.Build

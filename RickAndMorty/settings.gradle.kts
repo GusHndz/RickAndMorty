@@ -23,3 +23,5 @@ rootProject.name = "Rick And Morty"
 include(":app")
 include(":core")
 include(":resource")
+include(":data")
+include(":domain")

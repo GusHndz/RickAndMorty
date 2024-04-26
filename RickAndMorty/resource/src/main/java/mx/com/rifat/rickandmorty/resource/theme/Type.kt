@@ -1,4 +1,4 @@
-package mx.com.rifat.rickandmorty.rickandmorty.ui.theme
+package mx.com.rifat.rickandmorty.resource.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
