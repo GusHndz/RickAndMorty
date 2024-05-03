@@ -1,6 +1,5 @@
 package mx.com.rifat.rickandmorty.core.repository
 
-import android.content.Context
 import android.util.Log
 import kotlinx.coroutines.coroutineScope
 import mx.com.rifat.rickandmorty.core.common.ResponseManagement

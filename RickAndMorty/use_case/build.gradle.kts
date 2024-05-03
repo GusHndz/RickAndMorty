@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "mx.com.rifat.rickandmorty.resource"
+    namespace = "mx.com.rifat.rickandmorty.use_case"
     compileSdk = 34
 
     defaultConfig {
@@ -30,31 +30,14 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
-    }
 }
 
 dependencies {
-    api(libs.androidx.ui)
-    api(libs.androidx.ui.graphics)
-    api(libs.androidx.core.ktx)
-    api(libs.androidx.lifecycle.runtime.ktx)
-    api(libs.androidx.activity.compose)
-    api(platform(libs.androidx.compose.bom))
-    api(libs.androidx.ui.tooling.preview)
+
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    api(libs.androidx.core.splashscreen)
-    api(libs.androidx.material3)
-    implementation(libs.coil)
-
-    api(project(":domain"))
-
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    debugApi(libs.ui.tooling)
 }

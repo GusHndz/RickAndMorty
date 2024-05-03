@@ -10,4 +10,5 @@ java {
 
 dependencies {
     implementation(libs.google.gson)
+    implementation(project(":data"))
 }
